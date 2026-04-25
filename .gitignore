@@ -12,6 +12,9 @@
 /regen-engine
 /.claude
 /.qodo
+
+# local-only project OS scaffolding (own git repo, not part of fabrica)
+/project-os
 # testing
 /coverage
 

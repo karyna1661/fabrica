@@ -6,7 +6,7 @@ export function Card({
   className,
   hover = false,
 }: {
-  children: ReactNode;
+  children?: ReactNode;
   className?: string;
   hover?: boolean;
 }) {

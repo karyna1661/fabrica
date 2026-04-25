@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { SUPPLIERS, filterSuppliers } from "@/lib/suppliers";
 import { SupplierCard } from "@/components/suppliers/SupplierCard";
 import { DirectoryFilters } from "@/components/suppliers/DirectoryFilters";
+import { AiMatchBar } from "@/components/suppliers/AiMatchBar";
 import { Tag } from "@/components/ui/Tag";
 import { ButtonLink } from "@/components/ui/Button";
 
@@ -26,7 +27,7 @@ export default async function SuppliersPage({
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-      <header className="mb-10">
+      <header className="mb-8">
         <Tag tone="ink" className="mb-3">
           Directory · Lagos
         </Tag>
@@ -39,6 +40,10 @@ export default async function SuppliersPage({
           directly on WhatsApp.
         </p>
       </header>
+
+      <div className="mb-10">
+        <AiMatchBar />
+      </div>
 
       <div className="grid gap-10 lg:grid-cols-[260px_1fr]">
         <DirectoryFilters />

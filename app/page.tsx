@@ -142,8 +142,8 @@ function HeroSwatchStack() {
 
 function MarqueeStrip() {
   const items = [
-    "10+ verified Lagos suppliers",
-    "300+ fabric SKUs",
+    "70+ verified Lagos suppliers",
+    "1,000+ fabric SKUs",
     "Avg response time: 4 hrs",
     "WhatsApp-first",
     "MOQs from 3m",
@@ -401,7 +401,7 @@ function FinalCta() {
         Stop trekking. Start sourcing.
       </h2>
       <p className="mt-4 text-muted max-w-lg mx-auto">
-        Browse 10+ verified suppliers across Lagos and message them in seconds.
+        Browse 70+ verified suppliers across Lagos and message them in seconds.
       </p>
       <div className="mt-8">
         <ButtonLink href="/suppliers" size="lg">
